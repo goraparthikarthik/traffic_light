@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.bg-container {
+    background-color: #86d2f2;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+.main-heading {
+    color: #1f1d41;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Roboto";
+    margin-bottom: 50px;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+    align-items: center;
+    
+    
+    
+}
+
+.button {
+    height: 40px;
+    width: 90px;
+    border-radius: 12px;
+    background-color: #1f1d41;
+    color: #fff;
+    margin-bottom: 50px;
+    border-width: 0px;
+    cursor: pointer;
+    outline: none;
+}
+
+.lights-container {
+    background-color: #1f1d41;
+    height: 300px;
+    width: 90px;
+    border-radius: 30px;
+    padding: 15px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.signals {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.redlight {
+    background-color: #4b5069;
+    height: 45px;
+    width: 45px;
+    border-radius: 50px;
+    
+}
+
+.yellowlight {
+    background-color: #4b5069;
+    height: 45px;
+    width: 45px;
+    border-radius: 50px;
+   
+}
+
+.greenlight {
+    background-color: #4b5069;
+    height: 45px;
+    width: 45px;
+    border-radius: 50px;
+}
